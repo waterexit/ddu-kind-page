@@ -1,0 +1,24 @@
+{
+  "name": "@water1120/ddu-kind-page",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./denops/@ddu-kinds/page.ts"
+  },
+  "publish": {
+    "include": [
+      "denops/@ddu-kinds/**/*.ts"
+    ]
+  },
+  "imports": {
+  },
+  "license": "MIT",
+  "lock": false,
+  "tasks": {
+    // "check": "deno check denops/**/*.ts",
+    // "lint": "deno lint denops",
+    // "lint-fix": "deno lint --fix denops",
+    // "fmt": "deno fmt denops",
+    // "test": "deno test -A --doc --parallel --shuffle denops/**/*.ts",
+    // "upgrade": "deno run -A jsr:@molt/cli **/*.ts --write"
+  }
+}
